@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+/* ТЕСТОВЫЕ КЛАССЫ */
+.image {
+    width: 300px;
+    height: 300px;
+}
+/* ТЕСТОВЫЕ КЛАССЫ */
+
 body {
     background-color: aliceblue;
     color: #222;
@@ -14,11 +21,15 @@ body {
 
 .wrapper {
     width: 1280px;
-    margin: 50px auto;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+header {
+    background: #e1e1e1;
 }
 
 header .logo {
-    padding: 0 0 0 24px;
     font-weight: 600;
     font-size: 40px;
     text-align: center;
@@ -41,10 +52,9 @@ header ul.nav li:hover {
 }
 
 header .presentation {
-    margin: 25px 0;
     background: url('./img/kizaru3.0.jpeg') no-repeat;
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-size: cover;
     background-position: center center;
     background-blend-mode: multiply;
@@ -54,7 +64,7 @@ header .presentation {
 header .presentation::after {
     content: 'The best products for you';
     position: absolute;
-    top: 120px;
+    top: 170px;
     right: 200px;
     width: 400px;
     font-size: 90px;
@@ -65,15 +75,38 @@ header .presentation::after {
 header .presentation::before {
     content: 'Low prices';
     position: absolute;
-    top: 530px;
-    right: 20px;
+    top: 520px;
+    right: 50px;
     width: 500px;
     font-size: 36px;
-    font-weight: 400;
-    color: aliceblue;
+    font-weight: 600;
+    color: #fff;
+}
+
+main {
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .item__product {
+    font-size: 36px;
+    background-color: #e1e1e1;
+    font-weight: 500;
+    height: 430px;
+    width: 220px;
+    margin: 10px auto;
+
+    border-radius: 3%;
+    text-align: center;
+    padding: 10px 0 0 0;
+    width: 300px;
 }
 
 footer {
+    padding: 50px 0;
+    width: 100%;
+    background-color: #e1e1e1;
     text-align: center;
     margin-top: 10px;
 }

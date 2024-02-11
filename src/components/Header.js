@@ -4,12 +4,14 @@ export default function Header() {
     return (
         <header>
             <div>
-                <span className='logo'>Narcos</span>
-                <ul className='nav'>
-                    <li>About us</li>
-                    <li>Contacts</li>
-                    <li>Сabinet</li>
-                </ul>
+                <div className='wrapper'>
+                    <span className='logo'>Narcos</span>
+                    <ul className='nav'>
+                        <li>About us</li>
+                        <li>Contacts</li>
+                        <li><a href="reg.html">Log In</a></li>
+                    </ul>
+                </div>
             </div>
             <div className='presentation'></div>
         </header>

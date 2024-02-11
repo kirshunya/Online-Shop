@@ -23,16 +23,66 @@ class App extends React.Component {
                 desc: 'Lorem ipsum dolor sit amet.',
                 category: 'narcos',
                 price: '500.54'
+            },
+            {
+                id: 3,
+                title: 'Alpha PVP',
+                img: 'geroin.webp',
+                desc: 'Lorem ipsum dolor sit amet.',
+                category: 'narcos',
+                price: '500.54'
+            },
+            {
+                id: 4,
+                title: 'Alpha PVP',
+                img: 'geroin.webp',
+                desc: 'Lorem ipsum dolor sit amet.',
+                category: 'narcos',
+                price: '500.54'
+            },
+            {
+                id: 5,
+                title: 'Alpha PVP',
+                img: 'geroin.webp',
+                desc: 'Lorem ipsum dolor sit amet.',
+                category: 'narcos',
+                price: '500.54'
+            },
+            {
+                id: 6,
+                title: 'Alpha PVP',
+                img: 'geroin.webp',
+                desc: 'Lorem ipsum dolor sit amet.',
+                category: 'narcos',
+                price: '500.54'
+            },
+            {
+                id: 7,
+                title: 'Alpha PVP',
+                img: 'geroin.webp',
+                desc: 'Lorem ipsum dolor sit amet.',
+                category: 'narcos',
+                price: '500.54'
+            },
+            {
+                id: 8,
+                title: 'Alpha PVP',
+                img: 'geroin.webp',
+                desc: 'Lorem ipsum dolor sit amet.',
+                category: 'narcos',
+                price: '500.54'
             }
             ]
         }
     }
     render() {
-        return (
-            <div className="wrapper">
-            <Header />
-            <Items items={this.state.items} />
-            <Footer />
+        return (  
+            <div>
+                <Header />
+                <div className="wrapper">
+                    <Items items={this.state.items} />
+                </div>
+                <Footer />
             </div>
         );
     }
